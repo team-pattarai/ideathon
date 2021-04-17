@@ -185,3 +185,6 @@
   });
 
 })(jQuery);
+ $(document).ready(function() {
+    $("#exampleModal").modal();
+  });
