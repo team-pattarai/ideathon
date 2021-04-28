@@ -146,13 +146,13 @@ h2 {
 
 .navbar .navbar-nav .nav-item.selected .nav-link,
 .navbar .navbar-nav .nav-item .nav-link:hover {
-  color: #99ff66;
-  border-bottom: 1px solid #99ff66;
+  color: #ffc284;
+  border-bottom: 1px solid #ffc284;
 }
 
 .cd-slider-nav li.selected a + .circle,
 .navbar .navbar-nav .nav-item .nav-link:hover + .circle {
-  background-color: #99ff66;
+  background-color: #ffc284;
 }
 
 .navbar-toggler-icon {
@@ -645,7 +645,7 @@ figure.effect-julia:hover p {
   margin: -75px 0 0 -75px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #3498db; /* Chrome, Opera 15+, Safari 5+ */
+  border-top-color: #ffc284; /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
   z-index: 2001;
 }
@@ -658,7 +658,7 @@ figure.effect-julia:hover p {
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #e74c3c; /* Chrome, Opera 15+, Safari 5+ */
+  border-top-color: #ffc284; /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
 }
 #loader:after {
@@ -670,7 +670,7 @@ figure.effect-julia:hover p {
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */
+  border-top-color: #ffc284; /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
 }
 @keyframes spin {
