@@ -706,23 +706,23 @@ figure.effect-julia:hover p {
 .loaded #loader-wrapper .loader-section.section-left {
   /* Chrome, Opera 15+, Safari 3.1+ */ /* IE 9 */
   transform: translateX(-100%); /* Firefox 16+, IE 10+, Opera */
-  transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 1s 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .loaded #loader-wrapper .loader-section.section-right {
   /* Chrome, Opera 15+, Safari 3.1+ */ /* IE 9 */
   transform: translateX(100%); /* Firefox 16+, IE 10+, Opera */
-  transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 1s 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .loaded #loader {
   opacity: 0;
-  transition: all 0.3s ease-out;
+  transition: all 0.7s ease-out;
 }
 .loaded #loader-wrapper {
   visibility: hidden; /* Chrome, Opera 15+, Safari 3.1+ */ /* IE 9 */
   transform: translateY(-100%); /* Firefox 16+, IE 10+, Opera */
-  transition: all 0.3s 1s ease-out;
+  transition: all 0.7s 1.5s ease-out;
 }
 /* JavaScript Turned Off */
 .no-js #loader-wrapper {
