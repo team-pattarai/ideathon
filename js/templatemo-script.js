@@ -69,10 +69,13 @@ function openPage(no) {
     .fadeIn();
 }
 
-$(window).on('load', function() {
-  $('body').addClass('loaded');
-  openPage(1);
-});
+// $(window).on('load', function() {
+//   $('body').addClass('loaded');
+//   openPage(1);
+// });
+
+$('body').addClass('loaded');
+openPage(1);
 
 jQuery(function() {
     $('.tm-page-link').on('click', function(){

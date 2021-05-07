@@ -984,7 +984,7 @@ figure.effect-julia:hover p {
   margin-bottom: 20px;
   padding: 40px;
   border-radius: 6px;
-  background-image: linear-gradient(#000E14 ,#00303B,#0f343f);
+  background-image: linear-gradient(-30deg,#000E14 ,#00303B,#0f343f);
 }
 
 .blog-link {
